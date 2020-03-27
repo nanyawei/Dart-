@@ -1,0 +1,36 @@
+1. 安装node npm
+
+2. 安装express  -g , 安装 express-generator -g
+
+   ```	js
+   npm install -g express
+   npm install -g express-generator
+   ```
+
+3. 新建express项目
+
+   ```js
+   express myExpress
+   ```
+
+4. 打开myExpress，app.js添加
+
+   ```javascript
+   app.listen(8080)
+   ```
+
+5. 项目下运行
+
+   ```js
+   npm install
+   node app.js
+   ```
+
+6. 打开浏览器 localhost:8080   🎉🎉🎉
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+### 更改数据刷新页面不更新，有缓存
+参照 [https://www.xiaomujin.club/2019/07/30/%E4%BD%BF%E7%94%A8node%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A5%E6%94%B6%E8%AF%B7%E6%B1%82%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE/](https://www.xiaomujin.club/2019/07/30/使用node搭建简单服务器接收请求返回数据/)
+

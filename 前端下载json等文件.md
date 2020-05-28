@@ -1,7 +1,7 @@
 # 前端下载json文件
 
 ```
-const download = async () => {
+const download = () => {
     // .json为json文件，可以下载其他类型，如.html
     const filename = `${new Date().toLocaleDateString()}.json`;
     // 创建隐藏的可下载链接
@@ -16,5 +16,5 @@ const download = async () => {
     eleLink.click();
     // 然后移除
     document.body.removeChild(eleLink);
-  };
+};
 ```

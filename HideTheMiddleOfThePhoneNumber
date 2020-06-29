@@ -1,0 +1,5 @@
+const protectPhone = (p: string) => {
+  const digit = p.length - 4 - 4;
+  const hidePhoneReg = new RegExp('(\\d{' + digit + '})\\d{4}(\\d{4})');
+  return p.toString().replace(hidePhoneReg, '$1****$2');
+};
